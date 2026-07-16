@@ -1,0 +1,340 @@
+{
+  "version": "1.0",
+  "curated_as_of": "2026-07 (r2: passives makers added after M5 field contact)",
+  "note": "Curated reference snapshot of well-known corporate events in the electronic component industry. Plain JSON by design: skim it, correct it, extend it. Years are acquisition/rename announcement years. This file is a knowledge source, not a live feed - verify before high-stakes decisions.",
+  "manufacturers": [
+    {
+      "canonical": "Microchip Technology",
+      "aliases": [
+        "microchip"
+      ],
+      "absorbed_brands": [
+        {
+          "brand": "Micrel",
+          "year": 2015
+        },
+        {
+          "brand": "Atmel",
+          "year": 2016
+        },
+        {
+          "brand": "Microsemi",
+          "year": 2018
+        }
+      ],
+      "renames": [],
+      "stability_note": "serial acquirer; legacy lines periodically rationalized"
+    },
+    {
+      "canonical": "Analog Devices",
+      "aliases": [
+        "analog devices",
+        "adi"
+      ],
+      "absorbed_brands": [
+        {
+          "brand": "Linear Technology",
+          "year": 2017
+        },
+        {
+          "brand": "Maxim Integrated",
+          "year": 2021
+        }
+      ],
+      "renames": [],
+      "stability_note": "serial acquirer; Maxim portfolio integration ongoing"
+    },
+    {
+      "canonical": "onsemi",
+      "aliases": [
+        "onsemi",
+        "on semiconductor"
+      ],
+      "absorbed_brands": [
+        {
+          "brand": "AMI Semiconductor",
+          "year": 2008
+        },
+        {
+          "brand": "Fairchild Semiconductor",
+          "year": 2016
+        }
+      ],
+      "renames": [
+        {
+          "from": "ON Semiconductor",
+          "to": "onsemi",
+          "year": 2021
+        }
+      ],
+      "stability_note": "actively prunes legacy automotive/industrial lines"
+    },
+    {
+      "canonical": "STMicroelectronics",
+      "aliases": [
+        "stmicroelectronics",
+        "st micro"
+      ],
+      "absorbed_brands": [],
+      "renames": [],
+      "stability_note": "stable major"
+    },
+    {
+      "canonical": "Murata Electronics",
+      "aliases": [
+        "murata"
+      ],
+      "absorbed_brands": [],
+      "renames": [],
+      "stability_note": "stable major; routinely EOLs older MLCC case sizes as fabs migrate"
+    },
+    {
+      "canonical": "Samsung Electro-Mechanics",
+      "aliases": [
+        "samsung electro-mechanics",
+        "samsung electro mechanics",
+        "samsung"
+      ],
+      "absorbed_brands": [],
+      "renames": [],
+      "stability_note": "stable major"
+    },
+    {
+      "canonical": "Abracon",
+      "aliases": [
+        "abracon"
+      ],
+      "absorbed_brands": [],
+      "renames": [],
+      "stability_note": "stable specialist (frequency control)"
+    },
+    {
+      "canonical": "NDK",
+      "aliases": [
+        "ndk",
+        "nihon dempa kogyo"
+      ],
+      "absorbed_brands": [],
+      "renames": [],
+      "stability_note": "stable specialist (crystals)"
+    },
+    {
+      "canonical": "Recom Power",
+      "aliases": [
+        "recom"
+      ],
+      "absorbed_brands": [],
+      "renames": [],
+      "stability_note": "stable specialist (power modules)"
+    },
+    {
+      "canonical": "Texas Instruments",
+      "aliases": [
+        "texas instruments"
+      ],
+      "absorbed_brands": [
+        {
+          "brand": "National Semiconductor",
+          "year": 2011
+        }
+      ],
+      "renames": [],
+      "stability_note": "stable major"
+    },
+    {
+      "canonical": "NXP Semiconductors",
+      "aliases": [
+        "nxp"
+      ],
+      "absorbed_brands": [
+        {
+          "brand": "Freescale Semiconductor",
+          "year": 2015
+        }
+      ],
+      "renames": [],
+      "stability_note": "stable major"
+    },
+    {
+      "canonical": "Infineon Technologies",
+      "aliases": [
+        "infineon"
+      ],
+      "absorbed_brands": [
+        {
+          "brand": "International Rectifier",
+          "year": 2015
+        },
+        {
+          "brand": "Cypress Semiconductor",
+          "year": 2020
+        }
+      ],
+      "renames": [],
+      "stability_note": "acquirer; Cypress lines integrating"
+    },
+    {
+      "canonical": "Renesas Electronics",
+      "aliases": [
+        "renesas"
+      ],
+      "absorbed_brands": [
+        {
+          "brand": "Intersil",
+          "year": 2017
+        },
+        {
+          "brand": "IDT",
+          "year": 2019
+        },
+        {
+          "brand": "Dialog Semiconductor",
+          "year": 2021
+        }
+      ],
+      "renames": [],
+      "stability_note": "serial acquirer"
+    },
+    {
+      "canonical": "Yageo",
+      "aliases": [
+        "yageo"
+      ],
+      "absorbed_brands": [
+        {
+          "brand": "KEMET",
+          "year": 2020
+        },
+        {
+          "brand": "Pulse Electronics",
+          "year": 2018
+        }
+      ],
+      "renames": [],
+      "stability_note": "serial acquirer (passives consolidation)"
+    },
+    {
+      "canonical": "TDK",
+      "aliases": [
+        "tdk"
+      ],
+      "absorbed_brands": [
+        {
+          "brand": "EPCOS",
+          "year": 2009
+        },
+        {
+          "brand": "InvenSense",
+          "year": 2017
+        }
+      ],
+      "renames": [],
+      "stability_note": "stable major"
+    },
+    {
+      "canonical": "Nexperia",
+      "aliases": [
+        "nexperia"
+      ],
+      "absorbed_brands": [],
+      "renames": [
+        {
+          "from": "NXP Standard Products division",
+          "to": "Nexperia",
+          "year": 2017
+        }
+      ],
+      "stability_note": "spun off from NXP 2017; ownership changes since - watch for supply-chain policy shifts"
+    },
+    {
+      "canonical": "Vishay",
+      "aliases": [
+        "vishay"
+      ],
+      "absorbed_brands": [],
+      "renames": [],
+      "stability_note": "stable major (many historical small acquisitions)"
+    },
+    {
+      "canonical": "Diodes Incorporated",
+      "aliases": [
+        "diodes inc",
+        "diodes incorporated"
+      ],
+      "absorbed_brands": [
+        {
+          "brand": "Zetex",
+          "year": 2008
+        }
+      ],
+      "renames": [],
+      "stability_note": "stable"
+    },
+    {
+      "canonical": "Taiyo Yuden",
+      "aliases": [
+        "taiyo yuden"
+      ],
+      "absorbed_brands": [],
+      "renames": [],
+      "stability_note": "stable major (passives/inductors)"
+    },
+    {
+      "canonical": "KYOCERA AVX",
+      "aliases": [
+        "kyocera avx",
+        "avx"
+      ],
+      "absorbed_brands": [
+        {
+          "brand": "AVX",
+          "year": 2021
+        }
+      ],
+      "renames": [
+        {
+          "from": "AVX",
+          "to": "KYOCERA AVX",
+          "year": 2021
+        }
+      ],
+      "stability_note": "AVX fully absorbed into Kyocera branding"
+    },
+    {
+      "canonical": "Panasonic Electronic Components",
+      "aliases": [
+        "panasonic"
+      ],
+      "absorbed_brands": [],
+      "renames": [],
+      "stability_note": "stable major"
+    },
+    {
+      "canonical": "Walsin Technology",
+      "aliases": [
+        "walsin"
+      ],
+      "absorbed_brands": [],
+      "renames": [],
+      "stability_note": "stable passives maker (Taiwan)"
+    },
+    {
+      "canonical": "Wurth Elektronik",
+      "aliases": [
+        "wurth",
+        "würth"
+      ],
+      "absorbed_brands": [],
+      "renames": [],
+      "stability_note": "stable major (passives/electromechanical)"
+    }
+  ],
+  "mpn_prefix_heritage": {
+    "MIC": "Micrel",
+    "MAX": "Maxim Integrated",
+    "LTC": "Linear Technology",
+    "AMIS": "AMI Semiconductor",
+    "ISL": "Intersil",
+    "NCP": null
+  }
+}

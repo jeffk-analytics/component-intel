@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "note": "Per-category substitution fit rules - human-readable and editable, like the M3 knowledge file. must_match parameters must be equal after normalization; must_meet_or_exceed parameters must be numerically >= the reference. A parameter missing on EITHER side makes fit UNVERIFIED, never a silent pass. Categories with auto_substitution=false are policy gates: the engine refuses to auto-suggest and says why.",
+  "categories": {
+    "mlcc": {
+      "auto_substitution": true,
+      "must_match": ["Capacitance", "Temperature Coefficient", "Package / Case"],
+      "must_meet_or_exceed": ["Voltage - Rated"],
+      "query_params": ["Capacitance", "Voltage - Rated", "Temperature Coefficient", "Package / Case"],
+      "query_suffix": "ceramic capacitor"
+    },
+    "crystal_oscillator": {
+      "auto_substitution": true,
+      "must_match": ["Frequency", "Load Capacitance", "Package / Case"],
+      "must_meet_or_exceed": [],
+      "query_params": ["Frequency", "Load Capacitance"],
+      "query_suffix": "crystal"
+    },
+    "buck_converter": {
+      "auto_substitution": true,
+      "must_match": ["Voltage - Output 1", "Package / Case"],
+      "must_meet_or_exceed": ["Current - Output"],
+      "query_params": ["Voltage - Output 1", "Current - Output"],
+      "query_suffix": "dc dc converter"
+    },
+    "can_transceiver": {
+      "auto_substitution": true,
+      "must_match": ["Package / Case"],
+      "must_meet_or_exceed": ["Data Rate"],
+      "query_params": ["Data Rate"],
+      "query_suffix": "CAN transceiver"
+    },
+    "microcontroller": {
+      "auto_substitution": false,
+      "policy_reason": "Microcontrollers embed firmware, pinout, and toolchain dependencies that no parametric comparison can verify. Substitution requires engineering review - the engine refuses to guess."
+    },
+    "unclassified": {
+      "auto_substitution": false,
+      "policy_reason": "Part category is unclassified - fit rules cannot be selected, so fitness cannot be verified. Classify the part first."
+    }
+  }
+}

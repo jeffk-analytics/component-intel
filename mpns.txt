@@ -1,0 +1,23 @@
+# CIE Phase-1 test set — 10 MPNs from public Pixhawk/PX4 design files
+# (official FMUv3 BOM + PX4 parts database, github.com/pixhawk/Hardware)
+# Lines starting with # are ignored.
+
+# --- MLCC capacitors ---
+CL21A106KAYNNNE
+GRM21BR60G107ME15L
+
+# --- Buck converter (+ one LDO as a classifier negative-control) ---
+R-785.0-1.0
+MIC5332-SSYMT
+
+# --- Microcontrollers ---
+STM32F427VIT6
+STM32F100C8T6B
+
+# --- Crystals ---
+NX3225SA-24.000MHZ-STD-CSR-1
+ABM3B-8.000MHZ-10-1-U-T
+
+# --- CAN transceivers ---
+MAX3051EKA+T
+AMIS42673ICAG1RG

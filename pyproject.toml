@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cie"
+version = "0.1.0"
+description = "Component Intelligence Engine - Phase 1 (M1 ingestion)"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx",
+    "pydantic",
+    "pydantic-settings",
+    "python-dotenv",
+    "tenacity",
+    "diskcache",
+    "pdfplumber",
+    "typer",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
